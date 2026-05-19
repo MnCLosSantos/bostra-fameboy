@@ -56,17 +56,9 @@ Config.arcadeModelHashes = {
 
 
 Config.GamingMachine = {
-    {
-        name = "Duo",
-        link = "https://duowfriends.eu/",
-    },
 	{
         name = "Pac-Man",
         link = "https://freepacman.org/",
-    },
-	{
-        name = "Flappy Bird",
-        link = "https://flappybird.io/",
     },
 }
 
@@ -79,21 +71,12 @@ Config.RetroMachine = {
         link = "https://duowfriends.eu/",
     },
     {
-        name = "Pac-Man",
-        link = "https://freepacman.org/",
-    },
-    {
         name = "Flappy Bird",
         link = "https://flappybird.io/",
     },
-
     {
         name = "Om Nom Run",
         link = "https://omnomrun.com/",
-    },
-    {
-        name = "Miniblox (Minecraft-like)",
-        link = "https://miniblox.io/",
     },
 }
 
@@ -106,69 +89,12 @@ Config.SuperMachine = {
         link = "https://rocketgoal.io/",
     },
 	{
-        name = "Deadly Descent",
-        link = "https://druskii32.github.io/other/deadlydescent/",
-    },
-	{
-        name = "Dash Craft",
-        link = "https://dashcraft.io/",
-    },
-	{
         name = "Driving Simulator",
         link = "https://www.terradrive.eu/",
     },
 	{
-        name = "Car Code Simulator",
-        link = "https://simcar.io/",
-    },
-
-	{
-        name = "Fragen FPS",
-        link = "https://fragen.cc/",
-    },
-	{
-        name = "Skill Warz",
-        link = "https://www.skillwarz.org/",
-    },
-	{
-        name = "Veck FPS",
-        link = "https://veck.io/",
-    },
-	{
-        name = "Kour FPS",
-        link = "https://kour.io/",
-    },
-	{
-        name = "Overtide",
-        link = "https://overtide.io/",
-    },
-	{
-        name = "Bloxd Game Panel",
-        link = "https://bloxd.io/",
-    },
-	{
-        name = "Poxel",
-        link = "https://poxel.io/",
-    },
-	{
-        name = "Smash Karts",
-        link = "https://smashkarts.io/",
-    },
-	{
-        name = "Krew",
-        link = "https://krew.io/",
-    },
-	{
-        name = "Cryzen",
-        link = "https://cryzen.io/",
-    },
-	{
         name = "Narrow One",
         link = "https://narrow.one/",
-    },
-	{
-        name = "Ships 3D",
-        link = "https://yp3d.com/ships3d/",
     },
 }
 
@@ -176,6 +102,3 @@ for i = 1, #Config.RetroMachine do
     table.insert(Config.SuperMachine, Config.RetroMachine[i])
 end
 
-for i = 1, #Config.GamingMachine do
-    table.insert(Config.SuperMachine, Config.GamingMachine[i])
-end
